@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active hr{
+    @apply block
+}
+.active span{
+    @apply hidden
+}
+
+@media (max-width: 765px) {
+    .active p{
+        @apply bg-[#E5C59F]
+    }
+}
