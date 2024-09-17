@@ -54,7 +54,7 @@ const Navbar = () => {
       </NavLink>
 
       {/* ===========Mobile Menu=========== */}
-      <div>
+      <div className="md:hidden">
         <HiMenuAlt3 onClick={()=>setShowMenu(true)} className="text-3xl md:hidden cursor-pointer" />
         <div className={`${showMenu? "fixed w-full":"h-0 w-0"} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
           <div className=" w-full px-4 py-6">

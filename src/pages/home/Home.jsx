@@ -47,8 +47,8 @@ const Home = () => {
           </p>
         </div>
         <div className="px-6">
-        <div className="bg-white rounded-3xl">
-        <img src={assets.appointment_img} className="h-[]" alt="" /> 
+        <div className="bg-white rounded-3xl overflow-hidden object-contain">
+        <img src={assets.appointment_img} className="" alt="" /> 
         </div>
           
         </div>
