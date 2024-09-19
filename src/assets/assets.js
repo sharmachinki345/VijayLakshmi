@@ -29,7 +29,7 @@ import numberimg7 from "./07.png"
 import numberimg8 from "./08.png"
 import numberimg9 from "./09.png"
 import numberimg10 from "./10.png"
-
+import franchiseImg from "./franchiseImg.png"
 
 
 export const assets = {
@@ -41,6 +41,7 @@ export const assets = {
     img5,
     img12,
     contactus,
+    franchiseImg,
     Service1,
     Service2,
     Service3,
