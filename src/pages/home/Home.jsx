@@ -1,9 +1,13 @@
 import React from "react";
 import Header from "../../components/Header";
+import Imgpage from "../../components/Imgpage";
+import Vision from "../../components/Vision";
+import Mission from "../../components/Mission";
+import Director from "../../components/Director";
 import { assets } from "../../assets/assets";
 const Home = () => {
   return (
-    <div>
+    <>
       <Header></Header>
       <section className="flex flex-col items-center py-16 min-h-screen bg-[#FFF6E0] md:px-10 lg:px-20">
         <h1 className="text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-semibold ">
@@ -54,7 +58,11 @@ const Home = () => {
         </div>
         </div>
       </section>
-    </div>
+        <Imgpage></Imgpage>
+        <Vision></Vision>
+        <Mission></Mission>
+      <Director></Director>
+    </>
   );
 };
 

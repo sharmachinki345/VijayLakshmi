@@ -30,6 +30,9 @@ import numberimg8 from "./08.png"
 import numberimg9 from "./09.png"
 import numberimg10 from "./10.png"
 import franchiseImg from "./franchiseImg.png"
+import DirectorImg from "./DirectorImg.png"
+import Img2page from './Img2page.png'
+import Img1page from './Img1page.png'
 
 
 export const assets = {
@@ -62,6 +65,9 @@ export const assets = {
     numberimg8,
     numberimg9,
     numberimg10,
+    DirectorImg,
+    Img1page,
+    Img2page,
 }
 
 
