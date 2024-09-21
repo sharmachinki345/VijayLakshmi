@@ -2,15 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-.active hr{
-    @apply block
+.active hr {
+  @apply block;
 }
-.active span{
-    @apply hidden
+.active span {
+  @apply hidden;
 }
 
 @media (max-width: 765px) {
-    .active p{
-        @apply bg-[#E5C59F]
-    }
+  .active p {
+    @apply bg-[#E5C59F];
+  }
 }
+
+/* .swiper {
+  width: 100%;
+  height: 100%;
+} */
+
+/* .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  Center slide text vertically
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */

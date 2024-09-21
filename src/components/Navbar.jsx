@@ -8,7 +8,7 @@ import { ImCross } from "react-icons/im";
 const Navbar = () => {
   const navigate = useNavigate();
 
-  const [showMenu,setShowMenu]=useState(false)
+  const [showMenu, setShowMenu] = useState(false);
   return (
     <div className="flex bg-[white] items-center justify-between text-sm py-4 mb-5 px-2 sm:px-[2%]  border-b border-b-gray-400">
       <div className="flex items-center">
@@ -55,19 +55,40 @@ const Navbar = () => {
 
       {/* ===========Mobile Menu=========== */}
       <div className="md:hidden">
-        <HiMenuAlt3 onClick={()=>setShowMenu(true)} className="text-3xl md:hidden cursor-pointer" />
-        <div className={`${showMenu? "fixed w-full":"h-0 w-0"} md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}>
+        <HiMenuAlt3
+          onClick={() => setShowMenu(true)}
+          className="text-3xl md:hidden cursor-pointer"
+        />
+        <div
+          className={`${
+            showMenu ? "fixed w-full" : "h-0 w-0"
+          } md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}
+        >
           <div className=" w-full px-4 py-6">
-          <ImCross className="cursor-pointer text-2xl ml-auto" onClick={()=>setShowMenu(false)} />
+            <ImCross
+              className="cursor-pointer text-2xl ml-auto"
+              onClick={() => setShowMenu(false)}
+            />
           </div>
           <ul className="flex flex-col gap-2 items-center mt-5 px-5 text-left font-semibold">
-            <NavLink  onClick={()=>setShowMenu(false)} to="/"><p className="px-4 py-2 rounded inline-block ">Home</p></NavLink>
-            <NavLink  onClick={()=>setShowMenu(false)} to="/about"><p className="px-4 py-2 rounded inline-block ">About</p></NavLink>
-            <NavLink  onClick={()=>setShowMenu(false)} to="/services"><p className="px-4 py-2 rounded inline-block ">Services</p></NavLink>
-            <NavLink  onClick={()=>setShowMenu(false)} to="/gallery"><p className="px-4 py-2 rounded inline-block ">Gallery</p></NavLink>
-            <NavLink  onClick={()=>setShowMenu(false)} to="/franchise"><p className="px-4 py-2 rounded inline-block ">Franchise</p></NavLink>
-            <NavLink  onClick={()=>setShowMenu(false)} to="/contact"><p className="px-4 py-2 rounded inline-block ">Contact Us</p></NavLink>
-        
+            <NavLink onClick={() => setShowMenu(false)} to="/">
+              <p className="px-4 py-2 rounded inline-block ">Home</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/about">
+              <p className="px-4 py-2 rounded inline-block ">About</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/services">
+              <p className="px-4 py-2 rounded inline-block ">Services</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/gallery">
+              <p className="px-4 py-2 rounded inline-block ">Gallery</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/franchise">
+              <p className="px-4 py-2 rounded inline-block ">Franchise</p>
+            </NavLink>
+            <NavLink onClick={() => setShowMenu(false)} to="/contact">
+              <p className="px-4 py-2 rounded inline-block ">Contact Us</p>
+            </NavLink>
           </ul>
         </div>
       </div>
