@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import { assets } from "../../assets/assets";
 const Franchise = () => {
+  const [inputsFranchise, setinputsFranchise] = useState({
+    Name: "",
+    Email: "",
+    Phone: "",
+    LastEdu: "",
+    CentLocal: "",
+    Address: "",
+    Message: "",
+  });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(inputsFranchise);
+  };
+
   return (
     <div className="main">
       <p className=" text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-bold mb-3 mx-2 text-center">
@@ -11,14 +26,36 @@ const Franchise = () => {
         {/* FORM starts here */}
         <div className="form1 lg:px-8">
           {/* <h1 id="thirdtext">Tell us how we can help</h1> */}
-          <form action="#">
+          <form onSubmit={handleSubmit}>
             <div className="input1">
               <label htmlFor="name">Name:</label>
-              <input type="text" id="name" name="name" required />
+              <input
+                type="text"
+                id="name"
+                value={inputsFranchise.Name}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    Name: e.target.value,
+                  });
+                }}
+                required
+              />
             </div>
             <div className="input1">
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                id="email"
+                value={inputsFranchise.Email}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    Email: e.target.value,
+                  });
+                }}
+                required
+              />
             </div>
             <div className="input1">
               <label htmlFor="phone">Mobile Number:</label>
@@ -26,33 +63,76 @@ const Franchise = () => {
                 type="text"
                 placeholder=""
                 id="phone"
-                name="phone"
+                value={inputsFranchise.Phone}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    Phone: e.target.value,
+                  });
+                }}
                 required
               />
             </div>
             <div className="input1">
               <label htmlFor="phone">Last Educational Qualification *</label>
-              <input type="text" placeholder="" id="leq" name="leq" required />
+              <input
+                type="text"
+                placeholder=""
+                id="leq"
+                value={inputsFranchise.LastEdu}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    LastEdu: e.target.value,
+                  });
+                }}
+                required
+              />
             </div>
             <div className="input1">
               <label htmlFor="phone">Centre Locality Name *</label>
-              <input type="text" placeholder="" id="cln" name="cln" required />
+              <input
+                type="text"
+                placeholder=""
+                id="cln"
+                value={inputsFranchise.CentLocal}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    CentLocal: e.target.value,
+                  });
+                }}
+                required
+              />
             </div>
-            {/* <label htmlFor="location">Location:</label> */}
-            {/* Add a new label for the select menu */}
-            {/* <select id="location" name="location">
-              <option value="city1">City 1</option>
-              <option value="city2">City 2</option>
-              <option value="city3">City 3</option> */}
-            {/* Add more options as needed */}
-            {/* </select> */}
+
             <div className="input1">
               <label htmlFor="address">Full Address:</label>
-              <textarea id="address" name="address" required></textarea>
+              <textarea
+                id="address"
+                value={inputsFranchise.Address}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    Address: e.target.value,
+                  });
+                }}
+                required
+              ></textarea>
             </div>
             <div className="input1">
               <label htmlFor="message">Message/Comment:</label>
-              <textarea id="message" name="message" required></textarea>
+              <textarea
+                id="message"
+                value={inputsFranchise.Message}
+                onChange={(e) => {
+                  setinputsFranchise({
+                    ...inputsFranchise,
+                    Message: e.target.value,
+                  });
+                }}
+                required
+              ></textarea>
             </div>
             <input type="submit" value="Send" />
           </form>

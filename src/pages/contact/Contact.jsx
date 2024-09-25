@@ -1,10 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css"; // Create and import your CSS file for custom styles
 import { assets } from "../../assets/assets";
 import { BiSolidPhoneCall } from "react-icons/bi";
 import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
+  const [inputs, setinputs] = useState({
+    Name: "",
+    Email: "",
+    Phone: "",
+    Message: "",
+  });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    console.log(inputs);
+    
+  };
   return (
     <div className="main">
       <p className=" text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-bold mb-3 mx-2 text-center">
@@ -18,14 +30,30 @@ const Contact = () => {
         {/* FORM starts here */}
         <div className="form1 lg:px-8">
           {/* <h1 id="thirdtext">Tell us how we can help</h1> */}
-          <form action="#">
+          <form onSubmit={handleSubmit}>
             <div className="input1">
               <label htmlFor="name">Name:</label>
-              <input type="text" id="name" name="name" required />
+              <input
+                type="text"
+                id="name"
+                value={inputs.Name}
+                onChange={(e) => {
+                  setinputs({ ...inputs, Name: e.target.value });
+                }}
+                required
+              />
             </div>
             <div className="input1">
               <label htmlFor="email">Email:</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                id="email"
+                value={inputs.Email}
+                onChange={(e) => {
+                  setinputs({ ...inputs, Email: e.target.value });
+                }}
+                required
+              />
             </div>
             <div className="input1">
               <label htmlFor="phone">Mobile Number:</label>
@@ -33,21 +61,24 @@ const Contact = () => {
                 type="text"
                 placeholder=""
                 id="phone"
-                name="phone"
+                value={inputs.Phone}
+                onChange={(e) => {
+                  setinputs({ ...inputs, Phone: e.target.value });
+                }}
                 required
               />
             </div>
-            {/* <label htmlFor="location">Location:</label> */}
-            {/* Add a new label for the select menu */}
-            {/* <select id="location" name="location">
-              <option value="city1">City 1</option>
-              <option value="city2">City 2</option>
-              <option value="city3">City 3</option> */}
-            {/* Add more options as needed */}
-            {/* </select> */}
+
             <div className="input1">
               <label htmlFor="message">Message/Comment:</label>
-              <textarea id="message" name="message" required></textarea>
+              <textarea
+                id="message"
+                value={inputs.Message}
+                onChange={(e) => {
+                  setinputs({ ...inputs, Message: e.target.value });
+                }}
+                required
+              ></textarea>
             </div>
             <input type="submit" value="Send" />
           </form>

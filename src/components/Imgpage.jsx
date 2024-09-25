@@ -5,7 +5,7 @@ const Imgpage = () => {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center">
       <img
-        src={assets.Imgpage2}
+        src={assets.Imgpage1}
         className="w-full h-auto lg:w-1/2 object-cover p-2"
         alt="Image 1"
       />

@@ -28,8 +28,8 @@ import numberimg9 from "./09.png";
 import numberimg10 from "./10.png";
 import franchiseImg from "./franchiseImg.png";
 import DirectorImg from "./DirectorImg.png";
-import Imgpage2 from "./ImgPage1.png";
-import Imgpage1 from "./ImgPage2.png";
+import Imgpage2 from "./ImgPage2.png";
+import Imgpage1 from "./ImgPage1.png";
 
 export const assets = {
   arrow_icon,
@@ -62,5 +62,5 @@ export const assets = {
   numberimg10,
   DirectorImg,
   Imgpage1,
-  Imgpage1,
+  Imgpage2,
 };
