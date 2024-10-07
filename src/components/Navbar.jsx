@@ -14,15 +14,15 @@ const Navbar = () => {
       <div className="flex items-center">
         <img
           onClick={() => navigate("/")}
-          className="w-10 h-auto cursor-pointer"
+          className="w-64 h-auto cursor-pointer"
           src={logo}
           alt=""
         />
-        <img
+        {/* <img
           src={brandName}
           onClick={() => navigate("/")}
           className="cursor-pointer w-48 md:w-full"
-        ></img>
+        ></img> */}
         {/* <span className="font-medium"> <span className="text-[blue]">Seven</span> <span className="text-[red]">Senses</span> <span className="text-[#68f660]">Integration</span> <span className="text-[violet]">Center</span></span> */}
       </div>
       <ul className="hidden md:flex items-start gap-5 font-medium ">
@@ -38,14 +38,11 @@ const Navbar = () => {
           <li className="py-1">Services</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
-        <NavLink to="/gallery">
+        {/* <NavLink to="/gallery">
           <li className="py-1">Gallery</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
-        </NavLink>
-        <NavLink to="/franchise">
-          <li className="py-1">Franchise</li>
-          <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
-        </NavLink>
+        </NavLink> */}
+        
       </ul>
       <NavLink to="/contact" className="hidden md:flex">
         <span className=" border-2 border-[#4A4A4A] flex items-center gap-2 bg-[#FFF6E0] px-4 py-[0.37rem] lg:px-8 lg:py-3 rounded-[16px] text-[#4A4A4A] text-sm font-bold hover:scale-105 transition-all duration-300">

@@ -2,6 +2,7 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { assets } from '../assets/assets';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -33,17 +34,17 @@ export default function Slider() {
         /></SwiperSlide>
         <SwiperSlide><img
           className="w-full md:rounded-lg"
-          src={assets.img12}
+          src={assets.img13}
           alt=""
         /></SwiperSlide>
         <SwiperSlide><img
           className="w-full md:rounded-lg"
-          src={assets.img12}
+          src={assets.img14}
           alt=""
         /></SwiperSlide>
         <SwiperSlide><img
           className="w-full h-auto md:rounded-lg"
-          src={assets.img12}
+          src={assets.img15}
           alt=""
         /></SwiperSlide>
         {/* <SwiperSlide>Slide 5</SwiperSlide>

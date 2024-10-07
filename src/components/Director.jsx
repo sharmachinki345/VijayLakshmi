@@ -4,12 +4,12 @@ const Director = () => {
   return (
     <section className="flex flex-col items-center py-16 min-h-screen bg-[#FFF6E0] md:px-10 lg:px-20">
       <h1 className="text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-bold ">
-        Director’s Profile
+        Introduction
       </h1>
       <div className="grid md:grid-cols-2  my-10 gap-8">
         <div className="flex flex-col justify-between text-[#2F2F2F] px-3 md:text-xl lg:text-3xl font-medium text-justify">
           <p>
-            Ms. Payel Maity, the founder & director of the institute{" "}
+            {/* Ms. Payel Maity, the founder & director of the institute{" "}
             <span className="text-green-500">
               Seven Senses Integration Centre
             </span>
@@ -25,7 +25,24 @@ const Director = () => {
             </span>{" "}
             <br /> <br />
             She constantly updates herself with new experiences & explores new
-            things & also upgrades her team & centre with their skills.
+            things & also upgrades her team & centre with their skills. */}
+            Vijaylaxmi cranes established in 2007. Operated under sole
+            proprietary of Mr. Shankar Laxman Navale. It offers a wide variety
+            of crane, rigging, heavy haul, and alternative movement
+            solutions. <br/><br/>
+            We provide safe, affordable crane rentals and sales of the best
+            brand name and used equipment available. cranes have the
+            highest safety standards in the industry, and with such an
+            impressive fleet, you’re guaranteed to find crane or lifting
+            equipment for any project.<br/><br/>
+            We have well experienced professional operators who are trained
+            and licensed through their respective states. They can handle any
+            project or job out there. Vijaylaxmi crane offers safety, experience,
+            Responsibility, and flexibility under their co working space. We
+            provide the best equipment, for the right price, from trained
+            professionals. Our safety record is one of the highest in the
+            industry.
+
           </p>
         </div>
         <div className="px-6">

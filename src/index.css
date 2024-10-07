@@ -12,6 +12,7 @@
 @media (max-width: 765px) {
   .active p {
     @apply bg-[#E5C59F];
+    /* #E5C59F */
   }
 }
 

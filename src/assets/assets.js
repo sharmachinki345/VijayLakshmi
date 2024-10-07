@@ -5,6 +5,9 @@ import img1 from "./img 1.png";
 import img4 from "./img 4.png";
 import img5 from "./img 5.png";
 import img12 from "./img 12.png";
+import img13 from "./img 13.png";
+import img14 from "./img 14.png";
+import img15 from "./img 15.png";
 import contactus from "./Contact us.png";
 import Service1 from "./Service1.png";
 import Service2 from "./Service2.png";
@@ -38,6 +41,9 @@ export const assets = {
   img4,
   img5,
   img12,
+  img13,
+  img14,
+  img15,
   contactus,
   franchiseImg,
   Service1,

@@ -41,82 +41,78 @@ const Services = () => {
     {
       id: "01",
       numberImg: assets.numberimg1,
-      title: "Occupational Therapy",
+      title: "Crane On Rent",
       description:
-        "Focuses on helping children develop the skills needed for everyday activities, such as self-care, school tasks, and play. Through customized activities and exercises, occupational therapy improves fine motor skills, hand-eye coordination, and adaptive techniques.  ",
+        "Our crane rental services offer reliable and efficient lifting solutions for construction and industrial projects. With flexible rental options and certified operators, we ensure safe and timely execution to meet your specific needs.",
       image: assets.Service1,
     },
     {
       id: "02",
       numberImg: assets.numberimg2,
-      title: "SPEECH & LANGUAGE THERAPY",
+      title: "Close Container Towing Service",
       description:
-        "Aims to enhance communication abilities by addressing speech, language, and social interaction skills. Techniques include articulation exercises, language development activities, and strategies to improve understanding and expression.",
+        "Our close container towing service provides safe, reliable transportation with timely delivery. With experienced drivers and well-maintained equipment, we ensure hassle-free logistics for your containers.",
       image: assets.Service2,
     },
     {
       id: "03",
       numberImg: assets.numberimg3,
-      title: "Behavioral Counseling",
+      title: "Mini Cranes on Hire",
       description:
-        "Provides support for managing behavioral issues and emotional challenges. This service uses counseling techniques to address behavior problems, improve coping strategies, and guide both children and parents in fostering positive behavioral changes.",
+        "Our mini cranes on hire offer compact, versatile lifting solutions for tight spaces and precise operations. Ideal for both construction and industrial projects, they provide efficiency without compromising on safety.",
       image: assets.Service3,
     },
     {
       id: "04",
       numberImg: assets.numberimg4,
-      title: "SPECIAL EDUCATION",
+      title: "Bucket Cranes on Hire",
       description:
-        "Offers individualized educational support tailored to each child’s unique learning needs. This includes customized lesson plans, one-on-one instruction, and specialized tools to help children achieve their academic goals and overcome learning challenges.",
-      image: assets.Service4,
+        "Our bucket cranes on hire provide safe and efficient access for elevated tasks like maintenance, repairs, and construction. With flexible rental options, they ensure reliability and precision for hard-to-reach areas.", image: assets.Service4,
     },
     {
       id: "05",
       numberImg: assets.numberimg5,
-      title: "Sensory Integration Therapy",
+      title: "Mobile Crane on Hire",
       description:
-        "Helps children better process and respond to sensory information, such as sight, sound, touch, and movement. Through sensory-rich activities and play, this therapy improves sensory processing, coordination, and overall sensory integration.",
+        "Our mobile cranes on hire offer flexible, powerful lifting solutions for various projects, from construction to industrial tasks. With easy mobility and expert operators, we ensure safe and efficient operations at any site.",
       image: assets.Service5,
     },
     {
       id: "06",
       numberImg: assets.numberimg6,
-      title: "Diet and Home Guidelines",
+      title: "Material Lifting Cranes",
       description:
-        "Helps children better process and respond to sensory information, such as sight, sound, touch, and movement. Through sensory-rich activities and play, this therapy improves sensory processing, coordination, and overall sensory integration.",
-      image: assets.Service6,
+        "Our material lifting cranes provide reliable solutions for transporting heavy loads with ease and precision. Designed for efficiency, they are ideal for construction sites and industrial applications, ensuring safety and productivity.", image: assets.Service6,
     },
     {
       id: "07",
       numberImg: assets.numberimg7,
-      title: "Psychological Counseling and IQ Tests",
+      title: "Flatbed Towing Services",
       description:
-        "Offers emotional support and cognitive assessments to better understand and address a child's psychological and cognitive needs. This service includes individual counseling and assessments to identify strengths, challenges, and appropriate interventions.",
+        "Our flatbed towing services offer secure and efficient transportation for vehicles of all sizes, ensuring they are safely loaded and delivered. With experienced operators and reliable equipment, we guarantee prompt service to meet your towing needs.",
       image: assets.Service7,
     },
     {
       id: "08",
       numberImg: assets.numberimg8,
-      title: "Neurodevelopmental Therapy",
+      title: "Sky lift Cranes on Hire",
       description:
-        "Supports the development of neurological and cognitive functions through structured exercises and activities. Aims to enhance cognitive skills, motor abilities, and overall neurological development for children with neurodevelopmental disorders.",
-      image: assets.Service8,
+        "Our sky lift cranes on hire provide safe and efficient access to elevated work areas, perfect for construction and maintenance tasks. With user-friendly controls and reliable performance, they ensure productivity while prioritizing safety.", image: assets.Service8,
     },
     {
       id: "09",
       numberImg: assets.numberimg9,
-      title: "Brain Gym",
+      title: "Towing Services",
       description:
-        "Uses physical exercises designed to stimulate brain function and improve motor skills. This therapy integrates physical movement with cognitive tasks to boost coordination, learning abilities, and overall cognitive performance.",
+        "Our towing services deliver prompt and reliable assistance for vehicles in need, ensuring safe transport to your desired location. With experienced drivers and well-equipped trucks, we prioritize your peace of mind during every tow.",
       image: assets.Service9,
     },
     {
       id: "10",
       numberImg: assets.numberimg10,
-      title: "Group Therapy",
+      title: "Manlift Cranes on Hire",
       description:
-        "Provides therapeutic support in a group setting, encouraging social interaction and shared experiences. Through group activities and discussions, children benefit from peer support and collaborative learning",
-      image: assets.Service10,
+        "Our manlift cranes on hire offer safe and efficient access for workers in elevated positions, ideal for construction and maintenance projects. With easy maneuverability and robust safety features, they enhance productivity while ensuring worker safety.", image: assets.Service10,
     },
   ];
   return (
@@ -132,17 +128,15 @@ const Services = () => {
           >
             <img
               src={service.image}
-              className={`w-auto h-[290px] md:h-[420px] mx-auto ${
-                index % 2 && "md:col-start-2 md:col-end-3"
-              }`}
+              className={`w-auto h-[290px] md:h-[420px] mx-auto ${index % 2 && "md:col-start-2 md:col-end-3"
+                }`}
               alt=""
             />
             <div
               style={cardStyle}
-              className={`mx-auto relative px-0 ${
-                index % 2 &&
+              className={`mx-auto relative px-0 ${index % 2 &&
                 "md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2"
-              }`}
+                }`}
             >
               {/* <h1 style={numberStyle} className="sm:text-[200px]">{service.id}</h1> */}
               <img src={service.numberImg} alt="" />

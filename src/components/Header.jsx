@@ -9,13 +9,12 @@ const Header = () => {
       {/* ============Left========= */}
       <div className="hidden lg:w-1/2 lg:flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px] ">
         <p className="text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-semibold leading-tight md:leading-tight lg:leading-tight ">
-          A Safe Space <br />
-          For Little Minds
+        Elevate Your Expectations 
         </p>
         <div className="flex flex-col md:flex-row items-center gap-3 text-[#2F2F2F] text-base font-medium">
           <p>
-            Creating a supportive environment <br className="hidden sm:block" />{" "}
-            — where children can feel comfortable and understood.
+          Elevating possibilities with precision and safety <br className="hidden sm:block" />{" "}
+            — our cranes lift your ambitions to new heights!
           </p>
         </div>
         {/* <NavLink

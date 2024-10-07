@@ -7,7 +7,7 @@ import Mission from "../../components/Mission";
 const About = () => {
   return (
     <>
-      <Director></Director>
+      {/* <Director></Director> */}
       <section className="flex flex-col items-center py-16 min-h-screen bg-[#FFF6E0] md:px-10 lg:px-20">
         <h1 className="text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-semibold ">
           About Us
@@ -15,37 +15,26 @@ const About = () => {
         <div className="grid md:grid-cols-2  my-10 gap-8">
           <div className="flex flex-col justify-between text-[#2F2F2F] px-3 font-medium text-justify">
             <p>
-              Welcome to Seven Senses Integration Center, where we are devoted
-              to nurturing the growth and development of children through
-              personalized therapeutic care. Our center serves as a hub of
-              specialized psychological and developmental services, all designed
-              to help children overcome challenges, enhance their unique
-              abilities, and achieve their fullest potential. We believe that
-              early intervention and structured, evidence-based therapies can
-              make a significant difference in shaping a child’s developmental
-              journey and overall well-being.
+              Vijaylaxmi Roadlinks is formed by Mr. Kishan Laxman Navale with the Intention to provide
+              all travel solutions in corporate level as well as mass transport.
+              With their continual efforts vijaylaxmi Roadlinks has become Maharashtra's
+              foremost provider of corporate level Travel and Transport service provider.
+
+
             </p>
             <p>
-              At 7 Senses, we recognize that each child is wonderfully unique,
-              with their own distinct strengths, challenges, and aspirations. We
-              take a holistic approach to therapy, which means we don’t just
-              focus on the immediate issues but also aim to foster long-term
-              growth, independence, and confidence. Our highly skilled team of
-              therapists, educators, and specialists collaborates across
-              multiple disciplines to create individualized and comprehensive
-              treatment plans that are specifically tailored to the emotional,
-              behavioral, and developmental needs of each child.
+              We have may of Pune's leading corporate and BPO's as our clients.
+              In the past 10 years we have transformed the travel / transport process using
+              technology to create leading edge approach, virtually removing paper from our internal
+              operations, optimum utilization of kms and controlling per fit cost, delivering services of
+              acceptable quality.
             </p>
             <p>
-              Our team is committed to providing a nurturing environment where
-              children feel supported, safe, and motivated to grow. We believe
-              that strong collaboration between parents, caregivers, and
-              educators is key to success. By working closely with families, we
-              ensure that every child receives the guidance, care, and
-              encouragement they need both in and outside the therapy center.
-              Whether your child requires assistance with communication,
-              behavior, learning, or developmental challenges, we are here to
-              walk with them every step of the way on their journey to success.
+              We are recognized for tailoring our technology and systems and process to match
+              our client's needs. We always work as an extended arm of our client's admin team with total
+              transparency.
+              This in turn helps our customers to relax and use their resources and time to many
+              other important jobs.
             </p>
           </div>
           <div className="px-6">
@@ -55,8 +44,8 @@ const About = () => {
           </div>
         </div>
       </section>
-      <Vision></Vision>
-      <Mission></Mission>
+      {/* <Vision></Vision>
+      <Mission></Mission> */}
     </>
   );
 };
