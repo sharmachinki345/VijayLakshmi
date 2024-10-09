@@ -24,16 +24,15 @@ const Client = () => {
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Bucket Cranes on Hire</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="q
-                    /client-img/services17.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services17.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Mobile Crane on Hire</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../../src/assets/Service6.png" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/service18.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Material Lifting Cranes</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../../src/assets/Service7.png" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/service19.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Flatbed Towing Services</div>
                 </div>
                 <div>
