@@ -18,15 +18,15 @@ const Contact = () => {
 
   };
   return (
-    <div className="main">
-      <p className=" text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-bold mb-3 mx-2 text-center">
-        We’d love to hear from you
+    <div className="main" style={{backgroundColor:"#ffccb3"}}>
+      <p className=" text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-bold mb-3 mx-2 text-center pt-4">
+        Let's Connect, Collaborate
       </p>
-      <p className="mx-2 text-center">
+      <p className="mx-2 text-center mb-5">
         You’re curious about Services? — we’re ready to answer any and all
         questions.
       </p>
-      <div className="cmain " id="cmain1">
+      <div className="bg-slate-200" id="cmain1">
         {/* FORM starts here */}
         <div className="form1 lg:px-8">
           {/* <h1 id="thirdtext">Tell us how we can help</h1> */}

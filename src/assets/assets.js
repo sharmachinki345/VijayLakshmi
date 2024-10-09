@@ -8,6 +8,7 @@ import img12 from "./img 12.png";
 import img13 from "./img 13.png";
 import img14 from "./img 14.png";
 import img15 from "./img 15.png";
+import img16 from "./img16.jpg"
 import contactus from "./Contact us.png";
 import Service1 from "./Service1.png";
 import Service2 from "./Service2.png";
@@ -44,6 +45,7 @@ export const assets = {
   img13,
   img14,
   img15,
+  img16,
   contactus,
   franchiseImg,
   Service1,

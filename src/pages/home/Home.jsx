@@ -5,11 +5,13 @@ import Vision from "../../components/Vision";
 import Mission from "../../components/Mission";
 import Director from "../../components/Director";
 import { assets } from "../../assets/assets";
+import Client from "../../components/client";
+import Clientelle from "../../components/clientelle";
 const Home = () => {
   return (
     <>
       <Header></Header>
-      <Director></Director>
+      {/* <Director></Director> */}
       <section className="flex flex-col items-center py-16 min-h-screen bg-[#FFF6E0] md:px-10 lg:px-20">
         <h1 className="text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-semibold ">
           About Us
@@ -44,7 +46,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <Imgpage></Imgpage>
+      <Client></Client>
+      <Clientelle></Clientelle>
+      
+      {/* <Imgpage></Imgpage> */}
       {/* <Vision></Vision>
       <Mission></Mission> */}
     </>

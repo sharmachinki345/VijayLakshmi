@@ -5,10 +5,14 @@ import { assets } from "../assets/assets";
 import { NavLink, useNavigate } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { ImCross } from "react-icons/im";
+
 const Navbar = () => {
   const navigate = useNavigate();
 
   const [showMenu, setShowMenu] = useState(false);
+  
+  
+
   return (
     <div className="flex bg-[white] items-center justify-between text-sm py-4 mb-5 px-2 sm:px-[2%]  border-b border-b-gray-400">
       <div className="flex items-center">
@@ -30,25 +34,25 @@ const Navbar = () => {
           <li className="py-1">Home</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
-        <NavLink to="/about">
+        {/* <NavLink to="/about">
           <li className="py-1">About</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
-        </NavLink>
-        <NavLink to="/services">
-          <li className="py-1">Services</li>
+        </NavLink> */}
+        <NavLink to="/contact">
+          <li className="py-1">Contact Us</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
         {/* <NavLink to="/gallery">
           <li className="py-1">Gallery</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink> */}
-        
+
       </ul>
-      <NavLink to="/contact" className="hidden md:flex">
-        <span className=" border-2 border-[#4A4A4A] flex items-center gap-2 bg-[#FFF6E0] px-4 py-[0.37rem] lg:px-8 lg:py-3 rounded-[16px] text-[#4A4A4A] text-sm font-bold hover:scale-105 transition-all duration-300">
-          Contact Us <img className="w-3" src={assets.arrow_icon} alt="" />
+        <span className=" border-2 border-[#4A4A4A] flex items-center gap-2 bg-[#ffefe0] px-4 py-[0.37rem] lg:px-8 lg:py-3 rounded-[16px] text-[#4A4A4A] text-sm font-bold hover:scale-105 transition-all duration-300" >
+          call us <img className="w-3" src={assets.arrow_icon} alt="" />
         </span>
-      </NavLink>
+        {/* to link contact us page add navlink */}
+        {/* <NavLink to="/contact" className="hidden md:flex"> */}
 
       {/* ===========Mobile Menu=========== */}
       <div className="md:hidden">
@@ -57,9 +61,8 @@ const Navbar = () => {
           className="text-3xl md:hidden cursor-pointer"
         />
         <div
-          className={`${
-            showMenu ? "fixed w-full" : "h-0 w-0"
-          } md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}
+          className={`${showMenu ? "fixed w-full" : "h-0 w-0"
+            } md:hidden right-0 top-0 bottom-0 z-20 overflow-hidden bg-white transition-all`}
         >
           <div className=" w-full px-4 py-6">
             <ImCross
@@ -71,18 +74,18 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to="/">
               <p className="px-4 py-2 rounded inline-block ">Home</p>
             </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/about">
+            {/* <NavLink onClick={() => setShowMenu(false)} to="/about">
               <p className="px-4 py-2 rounded inline-block ">About</p>
-            </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/services">
+            </NavLink> */}
+            {/* <NavLink onClick={() => setShowMenu(false)} to="/services">
               <p className="px-4 py-2 rounded inline-block ">Services</p>
-            </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/gallery">
+            </NavLink> */}
+            {/* <NavLink onClick={() => setShowMenu(false)} to="/gallery">
               <p className="px-4 py-2 rounded inline-block ">Gallery</p>
-            </NavLink>
-            <NavLink onClick={() => setShowMenu(false)} to="/franchise">
+            </NavLink> */}
+            {/* <NavLink onClick={() => setShowMenu(false)} to="/franchise">
               <p className="px-4 py-2 rounded inline-block ">Franchise</p>
-            </NavLink>
+            </NavLink> */}
             <NavLink onClick={() => setShowMenu(false)} to="/contact">
               <p className="px-4 py-2 rounded inline-block ">Contact Us</p>
             </NavLink>
