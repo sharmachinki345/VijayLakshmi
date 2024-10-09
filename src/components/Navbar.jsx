@@ -48,11 +48,13 @@ const Navbar = () => {
         </NavLink> */}
 
       </ul>
+      <NavLink to="/checkout" className="hidden md:flex">
         <span className=" border-2 border-[#4A4A4A] flex items-center gap-2 bg-[#ffefe0] px-4 py-[0.37rem] lg:px-8 lg:py-3 rounded-[16px] text-[#4A4A4A] text-sm font-bold hover:scale-105 transition-all duration-300" >
           call us <img className="w-3" src={assets.arrow_icon} alt="" />
         </span>
-        {/* to link contact us page add navlink */}
-        {/* <NavLink to="/contact" className="hidden md:flex"> */}
+        </NavLink>
+        
+  
 
       {/* ===========Mobile Menu=========== */}
       <div className="md:hidden">

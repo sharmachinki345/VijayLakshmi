@@ -130,7 +130,7 @@ const Contact = () => {
             </p>
             <p className="text-[#2F2F2F] text-xl my-2">
               <MdEmail className="text-3xl md:text-3xl lg:text-4xl  font-semibold inline" />{" "}
-              vijaylaxmi.grup1@gmail.com.
+              vijaylaxmi.group1@gmail.com.
             </p>
           </div>
         </div>

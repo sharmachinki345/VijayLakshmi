@@ -6,11 +6,17 @@ const Footer = () => {
     <section className="bg-[#F0D9B7] mt-auto">
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <nav className="flex flex-wrap justify-center -mx-5 -my-2 font-semibold text-[#61677A]">
-          <div className="px-5 py-2 text-lg"> Address:
+          <div className="px-5 py-2 text-lg">Office Address:
             <div> Gate No. 1328 ,
               <br /> Anusuya Park, Kamalbag Society,
               <br />
               Wagholi, Pune-412207</div>
+          </div>
+          <div className="px-5 py-2 text-lg">Work Address:
+            <div> Gate No. 685/2 ,
+              <br /> A/P Karegaon,Ranjangaon Midc,
+              <br />
+              Tal-Shirur, Dist-pune</div>
           </div>
           <div className="px-5 py-2 text-lg"> Phone No.:
             <div> 9850899633

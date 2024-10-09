@@ -3,9 +3,11 @@ import { assets } from "../assets/assets";
 import { NavLink } from "react-router-dom";
 import Slider from "./Slider";
 
+
+
 const Header = () => {
   return (
-    <div className="flex flex-col md:flex-row flex-wrap bg-[#f8ccb8] rounded-lg px-0 md:px-10 lg:px-20">
+    <div className="flex flex-col md:flex-row flex-wrap rounded-lg px-0 md:px-10 lg:px-20 ">
       {/* ============Left========= */}
       {/* <div className="hidden lg:w-1/2 lg:flex flex-col items-start justify-center gap-4 py-10 m-auto md:py-[10vw] md:mb-[-30px] ">
         <p className="text-[#2F2F2F] text-3xl md:text-4xl lg:text-5xl  font-semibold leading-tight md:leading-tight lg:leading-tight ">
@@ -31,7 +33,10 @@ const Header = () => {
           src={assets.img12}
           alt=""
         /> */}
+  
+        
         <Slider></Slider>
+        
       {/* </div> */}
     </div>
   );
