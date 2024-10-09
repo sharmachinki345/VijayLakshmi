@@ -5,8 +5,8 @@ import Vision from "../../components/Vision";
 import Mission from "../../components/Mission";
 import Director from "../../components/Director";
 import { assets } from "../../assets/assets";
-import Client from "../../components/client";
-import Clientelle from "../../components/clientelle";
+import Client from "../../components/Client";
+import Clientelle from "../../components/Clientelle";
 const Home = () => {
   return (
     <>
