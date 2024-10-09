@@ -20,11 +20,12 @@ const Client = () => {
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Mini Cranes on Hire</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services13.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services14.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Bucket Cranes on Hire</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services12.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="q
+                    /client-img/services17.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Mobile Crane on Hire</div>
                 </div>
                 <div>
