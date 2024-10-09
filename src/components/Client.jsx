@@ -12,11 +12,11 @@ const Client = () => {
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Crane On Rent</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../../src/assets/Service2.png" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services16.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Close Container Towing Service</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services16.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services19.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Mini Cranes on Hire</div>
                 </div>
                 <div>
@@ -28,7 +28,7 @@ const Client = () => {
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Mobile Crane on Hire</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/client-img/service18.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/service19.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Material Lifting Cranes</div>
                 </div>
                 <div>
@@ -36,11 +36,11 @@ const Client = () => {
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Flatbed Towing Services</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services11.jpg" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/service18.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Sky lift Cranes on Hire</div>
                 </div>
                 <div>
-                    <img class="h-auto max-w-full rounded-lg" src="../../src/assets/Service9.png" alt="" />
+                    <img class="h-auto max-w-full rounded-lg" src="/client-img/services11.jpg" alt="" />
                     <div className=' bg-orange-300 text-center text-lg text-pretty'>Towing Services</div>
                 </div>
                 
