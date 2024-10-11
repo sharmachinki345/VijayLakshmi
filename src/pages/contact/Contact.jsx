@@ -13,7 +13,7 @@ const Contact = () => {
   });
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault();np
     console.log(inputs);
 
   };

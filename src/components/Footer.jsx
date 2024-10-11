@@ -5,24 +5,28 @@ const Footer = () => {
   return (
     <section className="bg-[#F0D9B7] mt-auto">
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav className="flex flex-wrap justify-center -mx-5 -my-2 font-semibold text-[#61677A]">
-          <div className="px-5 py-2 text-lg">Office Address:
-            <div> Gate No. 1328 ,
-              <br /> Anusuya Park, Kamalbag Society,
-              <br />
-              Wagholi, Pune-412207</div>
+        <nav className="flex flex-wrap justify-center -mx-5 -my-2 space-x-6 sm:space-x-8 font-semibold text-[#61677A]">
+        <div className="text-center sm:text-left">
+            <h2 className="font-serif font-bold text-[#535c79]">Office Address:</h2>
+            <p>
+              Gate No. 1328, <br />
+              Anusuya Park, Kamalbag Society, <br />
+              Wagholi, Pune-412207<br />
+            </p>
           </div>
-          <div className="px-5 py-2 text-lg">Work Address:
-            <div> Gate No. 685/2 ,
-              <br /> A/P Karegaon,Ranjangaon Midc,
-              <br />
-              Tal-Shirur, Dist-pune</div>
+          <div className="text-center sm:text-left">
+            <h2 className="font-serif font-bold text-[#535c79]">Work Address:</h2>
+            <p>
+              Gate No. 685/2 , <br />
+              A/P Karegaon, Ranjangaon Midc, <br />
+              Tal-Shirur, Dist-Pune <br />
+            </p>
           </div>
-          <div className="px-5 py-2 text-lg"> Phone No.:
-            <div> 9850899633
-              <br /> 9049688770
-              <br />
-              9607851212</div>
+          <div className="text-center sm:text-left">
+            <h2 className="font-serif font-bold text-[#535c79]">Phone No.:</h2>
+            <p className="whitespace-nowrap">9850899633</p>
+            <p className="whitespace-nowrap">9049688770</p>
+            <p className="whitespace-nowrap">9607851212</p>
           </div>
           {/* <div className="px-5 py-2">
             <NavLink to="/" className="text-base leading-6 hover:text-gray-900">
@@ -63,8 +67,8 @@ const Footer = () => {
             </NavLink>
           </div> */}
         </nav>
-        <div className="flex justify-center mt-8 space-x-6 text-black">
-          <a href="https://www.facebook.com/GrowYTCONSULTING/?_rdr" className=" hover:text-gray-500">
+        {/* <div className="flex justify-center mt-8 space-x-6 text-black"> */}
+          {/* <a href="https://www.facebook.com/GrowYTCONSULTING/?_rdr" className=" hover:text-gray-500">
             <span className="sr-only">Facebook</span>
             <svg
               className="w-9 h-9"
@@ -78,8 +82,8 @@ const Footer = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </a>
-          <a href="https://www.instagram.com/growyt_consultant/" className=" hover:text-gray-500">
+          </a> */}
+          {/* <a href="https://www.instagram.com/growyt_consultant/" className=" hover:text-gray-500">
             <span className="sr-only">Instagram</span>
             <svg
               className="w-9 h-9"
@@ -93,7 +97,7 @@ const Footer = () => {
                 clip-rule="evenodd"
               ></path>
             </svg>
-          </a>
+          </a> */}
           {/* <a href="#" className=" hover:text-gray-500">
             <span className="sr-only">Twitter</span>
             <svg
@@ -105,11 +109,13 @@ const Footer = () => {
               <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
             </svg>
           </a> */}
-        </div>
+        {/* </div> */}
       </div>
+      <a href="https://growyt.com/" className=" hover:text-gray-500">
       <p className="py-8 text-base leading-6 text-center text-[#61677A] font-semibold bg-[#E5C59F]">
-        Copyright © 2024, growYT
+        Copyright © 2024 GROWYT Consulting
       </p>
+      </a>
     </section>
   );
 };
