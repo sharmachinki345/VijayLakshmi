@@ -5,25 +5,25 @@ const Footer = () => {
   return (
     <section className="bg-[#F0D9B7] mt-auto">
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav className="flex flex-wrap justify-center -mx-5 -my-2 space-x-6 sm:space-x-8 font-semibold text-[#61677A]">
-        <div className="text-center sm:text-left">
-            <h2 className="font-serif font-bold text-[#535c79]">Office Address:</h2>
+        <nav className="flex flex-col sm:flex-row sm:justify-around sm:space-x-8 font-semibold text-[#61677A]">
+        <div className="text-center sm:text-left w-full sm:w-auto mb-4 sm:mb-0">
+            <h2 className="font-serif font-bold text-[#535c79] text-lg mb-2">Office Address:</h2>
             <p>
               Gate No. 1328, <br />
               Anusuya Park, Kamalbag Society, <br />
               Wagholi, Pune-412207<br />
             </p>
           </div>
-          <div className="text-center sm:text-left">
-            <h2 className="font-serif font-bold text-[#535c79]">Work Address:</h2>
+          <div className="text-center sm:text-left w-full sm:w-auto mb-4 sm:mb-0">
+            <h2 className="font-serif font-bold text-[#535c79] text-lg mb-2">Work Address:</h2>
             <p>
               Gate No. 685/2 , <br />
               A/P Karegaon, Ranjangaon Midc, <br />
               Tal-Shirur, Dist-Pune <br />
             </p>
           </div>
-          <div className="text-center sm:text-left">
-            <h2 className="font-serif font-bold text-[#535c79]">Phone No.:</h2>
+          <div className="text-center sm:text-left w-full sm:w-auto mb-4 sm:mb-0">
+            <h2 className="font-serif font-bold text-[#535c79] text-lg mb-2">Phone No.:</h2>
             <p className="whitespace-nowrap">9850899633</p>
             <p className="whitespace-nowrap">9049688770</p>
             <p className="whitespace-nowrap">9607851212</p>
